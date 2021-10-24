@@ -75,7 +75,7 @@ WSGI_APPLICATION = 'ClassroomRequirements.wsgi.application'
 
 DB_NAME = "classroom_requirements"
 DB_USER = "postgres"
-DB_PASSWORD = ""
+DB_PASSWORD = "postgrespass"
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
